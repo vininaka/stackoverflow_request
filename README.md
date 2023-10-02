@@ -27,7 +27,7 @@ Observações: Atualmente, o StackOverflow tem usado mecanismo de proteção **C
 # Execução de scripts
 * **executor.py**: Arquivo orquestrador responsável por ler um arquivo .py e procurar possíveis soluções no StackOVerflow. Para facilitar as execuções, esse arquivo pede um argumento de entrada(```--script_name```)
 * **code.py**: Arquivo com um código padrão. De acordo com as instruções sugeridas, esse script deve conter um erro.
-* **fetcher.py**: Arquivo responsável por realizar requisições a página do StackOverflow.
+* **fetcher.py**: Arquivo responsável por realizar requisições a página do StackOverflow. Possui duas funções, uma que retorna a lista de soluções apresentadas na primeira página e a segunda que acessa a primeira solução apresentada e realiza um screenshot da solução
 
 Para execução em sistemas Linux:
 ```console
