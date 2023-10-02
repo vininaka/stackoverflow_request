@@ -38,3 +38,12 @@ Para execução em sistemas Windows. Com a IDE PyCharm, novo projeto criado e o 
 Para a execução do arquivo **executor.py**, insira os argumentos de entrada seguindo os seguintes passos:
 ![image](https://github.com/vininaka/stackoverflow_request/assets/66442324/270ecf89-ec92-403b-8a9a-9a1086d1b729)
 ![image](https://github.com/vininaka/stackoverflow_request/assets/66442324/e4511f85-2137-4671-9e8c-a96932de7281)
+
+# Exemplo de execução:
+1 - Chamada do executor.py:
+![image](https://github.com/vininaka/stackoverflow_request/assets/66442324/36c166c6-2efe-4420-98a9-296ff7ea1a98)
+
+2 - Lista de soluções do StackOverflow:
+![image](https://github.com/vininaka/stackoverflow_request/assets/66442324/e3e7359c-fe5e-4200-8716-54f3314cfd73)
+
+3 - Acesso a primeira solução do StackOverflow:
