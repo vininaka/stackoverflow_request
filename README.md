@@ -47,3 +47,5 @@ Para a execução do arquivo **executor.py**, insira os argumentos de entrada se
 ![image](https://github.com/vininaka/stackoverflow_request/assets/66442324/dbd8161b-06bb-485b-934a-aa50cdf3a70d)
 
 3 - Acesso a primeira solução do StackOverflow:
+![image](https://github.com/vininaka/stackoverflow_request/assets/66442324/499bc030-a5ab-4fc4-8b4c-4c879339bd23)
+
