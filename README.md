@@ -41,9 +41,9 @@ Para a execução do arquivo **executor.py**, insira os argumentos de entrada se
 
 # Exemplo de execução:
 1 - Chamada do executor.py:
-![image](https://github.com/vininaka/stackoverflow_request/assets/66442324/36c166c6-2efe-4420-98a9-296ff7ea1a98)
+![image](https://github.com/vininaka/stackoverflow_request/assets/66442324/069cc903-bd2d-4497-b797-7f4f8ae875fb)
 
 2 - Lista de soluções do StackOverflow:
-![image](https://github.com/vininaka/stackoverflow_request/assets/66442324/e3e7359c-fe5e-4200-8716-54f3314cfd73)
+![image](https://github.com/vininaka/stackoverflow_request/assets/66442324/dbd8161b-06bb-485b-934a-aa50cdf3a70d)
 
 3 - Acesso a primeira solução do StackOverflow:
