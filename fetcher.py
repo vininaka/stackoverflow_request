@@ -5,6 +5,7 @@ from selenium import webdriver
 import time
 
 def get_solutions_from_stackoverflow(error_name):
+    # Make a request to StackOverflow and return list of solutions
     BASE_URL = "https://stackoverflow.com"
     QUERY = f"/search?q={error_name}"
 
@@ -37,6 +38,7 @@ def get_solutions_from_stackoverflow(error_name):
         return []
 
 def show_solutions(error_name):
+    # Print StackOverflow list of solutions
     print("\nSearching for solutions on StackOverflow...\n")
     solutions = get_solutions_from_stackoverflow(error_name)
     if solutions:
@@ -51,6 +53,7 @@ def show_solutions(error_name):
         print("No solutions found for the error.")
 
 def get_and_print_first_solution(error_name):
+    # Fetch StackOverflow solution and screenshot page
     print("\nFetching and saving a screenshot of the first solution...\n")
     solutions = get_solutions_from_stackoverflow(error_name)
     if solutions:
