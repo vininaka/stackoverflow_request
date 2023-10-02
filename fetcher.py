@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import re
 from selenium import webdriver
+import time
 
 def get_solutions_from_stackoverflow(error_name):
     BASE_URL = "https://stackoverflow.com"
@@ -57,14 +58,19 @@ def get_and_print_first_solution(error_name):
         try:
             driver = webdriver.Chrome()
             driver.get(first_solution_url)
+
+            # Add a wait time to allow the page to load
+            time.sleep(5)
             driver.save_screenshot("screenshot.png")
-            driver.quit()  # Close the WebDriver after use
+            # Close the WebDriver after use
+            driver.quit()
         except Exception as e:
             print(f"An error occurred while fetching the first solution: {e}")
     else:
         print("No solutions found for the error.")
 
 if __name__ == "__main__":
-    error_name = "ValueError"  # Replace with your desired error name
+    # Replace with your desired error name
+    error_name = "ValueError"
     show_solutions(error_name)
     get_and_print_first_solution(error_name)
